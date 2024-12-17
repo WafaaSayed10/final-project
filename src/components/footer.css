@@ -1,28 +1,3 @@
-:root{
-    --bgcolor: rgb(231, 231, 231);
-    --bg-card: white;
-    --bg1: white;
-    --bg2: white;
-    --bg-nav: white;
-    --color-secondary: #ddc0a1;
-    --default-color:#000;
-    --color-secondary2: rgb(63, 63, 63);
-    --footer1: #f1f1f199;
-    --footer: #f1f1f1;
-}
-.dark-themes{
-    --bgcolor: rgb(38, 38, 38);
-    --bg-card: rgb(38, 38, 38);
-    --bg1: rgb(14, 14, 14);
-    --bg2: #1b1b1b;
-    --bg-nav: rgb(21, 21, 21);
-    --color-secondary: teal;
-    --default-color:#fff;
-    --color-secondary2: rgb(197, 197, 197);
-    --footer1: #181818;
-    --footer: rgb(14, 14, 14);
-}
-
 #footer{
     background-color: var(--footer1);
 }

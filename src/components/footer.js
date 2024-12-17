@@ -2,7 +2,9 @@ import React from "react";
 import './footer.css';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { faTwitter, faFacebookF, faGoogle, faLinkedinIn} from '@fortawesome/free-brands-svg-icons'
-import { faArrowRight, faLocationDot, faPhone, faEnvelope, faEarthAmericas,faStar } from '@fortawesome/free-solid-svg-icons'
+import { faLocationDot, faPhone, faEnvelope, faEarthAmericas,faStar } from '@fortawesome/free-solid-svg-icons'
+import { FaChevronRight } from "react-icons/fa";
+import { BsDash } from "react-icons/bs";
 import photo1 from '../images/shoes2-600x600.jpg';
 import photo2 from '../images/bag2-1-150x150.jpg';
 import photo3 from '../images/shoes-600x600.jpg';
@@ -20,12 +22,12 @@ function Footer(){
                         </div>
                         <div className="col-12 col-md-6 col-lg-3 col-xl-3 mb-3">
                             <h5>Opening Hours</h5>
-                            <p className="line pb-2 m-0"><FontAwesomeIcon icon={faArrowRight} /> Monday 10AM  9PM</p>
-                            <p className="line py-2 m-0"><FontAwesomeIcon icon={faArrowRight} /> Tuesday 10AM  9PM</p>
-                            <p className="line py-2 m-0"><FontAwesomeIcon icon={faArrowRight} /> Wednesday 10AM  9PM</p>
-                            <p className="line py-2 m-0"><FontAwesomeIcon icon={faArrowRight} /> Thursday 10AM  10PM</p>
-                            <p className="line py-2 m-0"><FontAwesomeIcon icon={faArrowRight} /> Friday 10AM  10PM</p>
-                            <p className="py-2 m-0"><FontAwesomeIcon icon={faArrowRight} /> Weekends 10AM  11PM</p>
+                            <p className="line pb-2 m-0"><FaChevronRight /> Monday 10AM <BsDash /> 9PM</p>
+                            <p className="line py-2 m-0"><FaChevronRight /> Tuesday 10AM <BsDash /> 9PM</p>
+                            <p className="line py-2 m-0"><FaChevronRight /> Wednesday 10AM <BsDash /> 9PM</p>
+                            <p className="line py-2 m-0"><FaChevronRight /> Thursday 10AM <BsDash /> 10PM</p>
+                            <p className="line py-2 m-0"><FaChevronRight /> Friday 10AM <BsDash /> 10PM</p>
+                            <p className="py-2 m-0"><FaChevronRight /> Weekends 10AM <BsDash /> 11PM</p>
                         </div>
                         <div className="col-12 col-md-6 col-lg-3 col-xl-3 mb-3">
                             <h5>Top Rated Products</h5>
@@ -84,19 +86,19 @@ function Footer(){
             </section>
             <section id="rights" className="py-3">
                 <div className="container d-flex flex-column flex-xl-row justify-content-xl-between justify-content-between align-items-xl-center align-items-center">
-                    <p className="m-xl-0 mb-3">Copyright 2017. All rights reserved.</p>
+                    <p className="m-xl-0 mb-3">Copyright 2024. All rights reserved.</p>
                     <div className="d-flex">
                         <div className="social">
-                            <a href="https://www.facebook.com/wafaa.sayed.56" target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
+                            <a href="https://www.facebook.com/wafaa.sayed.56" ><FontAwesomeIcon icon={faFacebookF} /></a>
                         </div>
                         <div className="social">
-                            <a href=""><FontAwesomeIcon icon={faGoogle} /></a>
+                            <a href="https://www.google.com"><FontAwesomeIcon icon={faGoogle} /></a>
                         </div>
                         <div className="social">
-                            <a href="https://www.linkedin.com/in/wafaa-sayed10/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn} /></a>
+                            <a href="https://www.linkedin.com/in/wafaa-sayed10/" ><FontAwesomeIcon icon={faLinkedinIn} /></a>
                         </div>
                         <div className="social">
-                            <a href=""><FontAwesomeIcon icon={faTwitter} /></a>
+                            <a href="https://www.twitter.com/"><FontAwesomeIcon icon={faTwitter} /></a>
                         </div>
                     </div>
                 </div>
