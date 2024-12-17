@@ -1,0 +1,109 @@
+:root{
+    --bgcolor: rgb(231, 231, 231);
+    --bg-card: white;
+    --bg1: white;
+    --bg2: white;
+    --bg-nav: white;
+    --color-secondary: #ddc0a1;
+    --default-color:#000;
+    --color-secondary2: rgb(63, 63, 63);
+    --footer1: #f1f1f199;
+    --footer: #f1f1f1;
+}
+.dark-themes{
+    --bgcolor: rgb(38, 38, 38);
+    --bg-card: rgb(38, 38, 38);
+    --bg1: rgb(14, 14, 14);
+    --bg2: #1b1b1b;
+    --bg-nav: rgb(21, 21, 21);
+    --color-secondary: teal;
+    --default-color:#fff;
+    --color-secondary2: rgb(197, 197, 197);
+    --footer1: #181818;
+    --footer: rgb(14, 14, 14);
+}
+
+#footer{
+    background-color: var(--footer1);
+}
+#footer h5{
+    margin-bottom: 1.5rem;
+    color: var(--default-color);
+}
+#footer .line{
+    border-bottom: 1px solid rgba(198, 198, 198, 0.534);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+#footer .line:hover{
+    transform: translateX(10px);
+}
+#footer p{
+    color: #797979;
+}
+#footer .t-r-p{
+    border-bottom: 1px solid rgba(198, 198, 198, 0.534);
+}
+#footer img{
+    border: 1px solid rgba(198, 198, 198, 0.534);
+}
+#footer .starss .star{
+    font-size: 12px;
+    color: var(--color-secondary2);
+}
+#footer .c-details{
+    display: flex;
+    align-items: center;
+}
+#footer .c-details-line{
+    border-bottom: 1px solid rgba(198, 198, 198, 0.534);
+}
+#footer .c-details p{
+    margin: 0;
+    margin-left: 1rem;
+}
+#footer .c-details .details-icon{
+    color: #797979;
+}
+.mailto a{
+    text-decoration: none;
+    color: #797979;
+}
+#rights{
+    background-color: var(--footer);
+    color: #797979;
+}
+#rights .social{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: var(--bgcolor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.7rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+#rights .social:hover a{
+    color: white;
+}
+#rights .social:first-of-type:hover{
+    background-color: rgb(24, 24, 97);
+}
+#rights .social:nth-of-type(2):hover{
+    background-color: orangered;
+}
+#rights .social:nth-of-type(3):hover{
+    background-color: rgb(28, 28, 209);
+}
+#rights .social:last-of-type:hover{
+    background-color: rgb(41, 130, 248);
+}
+#rights .social a{
+    text-decoration: none;
+    color: #797979;
+}
+#rights .social .social-icon{
+    padding: 10px
+}
