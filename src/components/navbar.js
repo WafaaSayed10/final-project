@@ -45,7 +45,6 @@ function NavScrollExample() {
                     <FontAwesomeIcon className="moon ms-xl-5 ms-lg-5" id="change" onClick={change} icon={faMoon} /> :
                     <FontAwesomeIcon className="sun ms-xl-5 ms-lg-5" onClick={change} icon={faSun} />
                     }
-                    
                 </Nav>
             </Navbar.Collapse>
         </Container>

@@ -10,7 +10,11 @@
     transition: all 0.3s;
     cursor: pointer;
 }
-#footer .line:hover{
+#footer .last-line{
+    transition: all 0.3s;
+    cursor: pointer;
+}
+#footer .line:hover, .last-line:hover{
     transform: translateX(10px);
 }
 #footer p{

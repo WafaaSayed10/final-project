@@ -27,7 +27,7 @@ function Footer(){
                             <p className="line py-2 m-0"><FaChevronRight /> Wednesday 10AM <BsDash /> 9PM</p>
                             <p className="line py-2 m-0"><FaChevronRight /> Thursday 10AM <BsDash /> 10PM</p>
                             <p className="line py-2 m-0"><FaChevronRight /> Friday 10AM <BsDash /> 10PM</p>
-                            <p className="py-2 m-0"><FaChevronRight /> Weekends 10AM <BsDash /> 11PM</p>
+                            <p className="last-line py-2 m-0"><FaChevronRight /> Weekends 10AM <BsDash /> 11PM</p>
                         </div>
                         <div className="col-12 col-md-6 col-lg-3 col-xl-3 mb-3">
                             <h5>Top Rated Products</h5>
