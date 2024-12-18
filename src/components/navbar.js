@@ -27,17 +27,14 @@ function NavScrollExample() {
     return (
     <Navbar expand="lg" className="navbar">
         <Container>
-            <Navbar.Brand href="#" className='brand'>E-commerce</Navbar.Brand>
+            <NavLink to="/" className='brand'>Elegant</NavLink>
             <Navbar.Toggle aria-controls="navbarScroll" />
             <Navbar.Collapse id="navbarScroll">
                 <Nav className="ms-auto my-2 my-lg-0 d-flex align-items-center" style={{ maxHeight: '100px' }} navbarScroll >
-                    <Nav.Link className="nav-link" href="#action1">Home</Nav.Link>
-                    <Nav.Link className="nav-link" href="#action2">Shop</Nav.Link>
-                    <Nav.Link className="nav-link" href="#action3">Kids</Nav.Link>
-                    <Nav.Link className="nav-link" href="#action4">Women</Nav.Link>
-                    <Nav.Link className="nav-link" href="#action5">Men</Nav.Link>
-                    <Nav.Link className="nav-link" href="#action6">About</Nav.Link>
-                    <Nav.Link className="nav-link" href="#action7">Contact</Nav.Link>
+                    <NavLink className="nav-link" to="/">Home</NavLink>
+                    <NavLink className="nav-link" to="/shop">Shop</NavLink>
+                    <NavLink className="nav-link" to="/about">About</NavLink>
+                    <NavLink className="nav-link" to="/contact">Contact</NavLink>
                     <NavLink className="nav-link favorite " to="/favorite"><FaRegHeart /></NavLink>
                     <NavLink className="nav-link cart " to="/cart"><IoBagOutline /></NavLink>
                     <BiSearch className='nav-link search '/>

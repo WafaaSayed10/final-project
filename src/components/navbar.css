@@ -11,6 +11,7 @@
     font-weight: bold;
     font-size: 2rem;
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
 }
 .brand:hover{
     color: var(--color-secondary);
@@ -20,8 +21,11 @@
     transition: 0.3s ease;
     color: var(--default-color);
 }
-.nav-link:hover, .nav-link.active{
+.nav-link:hover{
     color: var(--color-secondary);
+}
+.active{
+    color: var(--color-secondary) !important;
 }
 .cart, .favorite{
     cursor: pointer;
