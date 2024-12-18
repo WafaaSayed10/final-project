@@ -1,0 +1,12 @@
+#product-details{
+    background-color: var(--bg1);
+    border-bottom: 1px solid var(--bgcolor);
+    position: relative;
+    padding-block: 4.1rem;
+}
+.bg-product-details{
+    background-color: var(--footer);
+    padding-block: 1.5rem;
+    margin-bottom: 2rem;
+    color: var(--default-color);
+}
