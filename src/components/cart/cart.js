@@ -1,8 +1,13 @@
 import React from "react";
 import './cart.css'
 import {NavLink} from 'react-router-dom'
+import { useNavigate } from "react-router-dom";
 
 function Cart(){
+    const navigate=useNavigate()
+    function returnToShop(){
+        navigate('/shop')
+    }
     return(
         <>
             <section id="cart">
@@ -16,7 +21,7 @@ function Cart(){
                 </div>
                 <div className="container">
                     <p>Your cart is currently empty.</p>
-                    <button>Return to shop</button>
+                    <button onClick={returnToShop}>Return to shop</button>
                 </div>
             </section>
         </>

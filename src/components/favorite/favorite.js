@@ -1,8 +1,13 @@
 import React from "react";
 import './favorite.css'
 import {NavLink} from 'react-router-dom'
+import { useNavigate } from "react-router-dom";
 
 function Favorite(){
+    const navigate=useNavigate()
+    function returnToShop(){
+        navigate('/shop')
+    }
     return(
         <>
             <section id="favorite">
@@ -16,7 +21,7 @@ function Favorite(){
                 </div>
                 <div className="container">
                     <p>Your Favorite is currently empty.</p>
-                    <button>Return to shop</button>
+                    <button onClick={returnToShop}>Return to shop</button>
                 </div>
             </section>
         </>

@@ -6,11 +6,11 @@ function Home(){
     return(
         <>
             <div id='home'>
-                <div class="container">
-                    <p class="text-capitalize">Welcome to</p>
+                <div className="container">
+                    <p className="text-capitalize">Welcome to</p>
                     <h1>Elegant Shop</h1>
                     <p>We're the biggest, best equipped and most advanced Web Agency in <br/> the greater Los Angeles area.</p>
-                    <a class="showbtn" href="#new-arrivals">show now</a>
+                    <a className="showbtn" href="#new-arrivals">show now</a>
                 </div>
             </div>
             <section id="new-arrivals" className="py-5">
