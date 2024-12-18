@@ -49,5 +49,10 @@
   },
   "devDependencies": {
     "ajv": "^7.2.4"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

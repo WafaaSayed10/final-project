@@ -5,9 +5,9 @@ import { faTwitter, faFacebookF, faGoogle, faLinkedinIn} from '@fortawesome/free
 import { faLocationDot, faPhone, faEnvelope, faEarthAmericas,faStar } from '@fortawesome/free-solid-svg-icons'
 import { FaChevronRight } from "react-icons/fa";
 import { BsDash } from "react-icons/bs";
-import photo1 from '../images/shoes2-600x600.jpg';
-import photo2 from '../images/bag2-1-150x150.jpg';
-import photo3 from '../images/shoes-600x600.jpg';
+import photo1 from '../../images/shoes2-600x600.jpg';
+import photo2 from '../../images/bag2-1-150x150.jpg';
+import photo3 from '../../images/shoes-600x600.jpg';
 
 function Footer(){
     return(
