@@ -2,8 +2,14 @@ import React from "react";
 import Card from "../card";
 import {NavLink} from 'react-router-dom'
 import './shop.css'
+import data from '../../data.json'
+import { useState, useEffect } from 'react';
 
 function Shop(){
+    const [products, setProducts]= useState([])
+    useEffect(()=>{
+        setProducts(data)
+    },[])
     return(
         <>
             <div id="shop" className="">
@@ -17,7 +23,7 @@ function Shop(){
                 </div>
                 <div className="container">
                     <div className="procards">
-                        <Card></Card>
+                    {products.map(card => (<Card key={card.id} name={card.name} price={card.price} img={card.img}/>))}
                     </div>
                 </div>
             </div>

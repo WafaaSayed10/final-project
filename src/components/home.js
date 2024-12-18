@@ -1,8 +1,15 @@
 import React from 'react'
 import './home.css'
 import Card from './card';
+import data from '../data.json'
+import { useState, useEffect } from 'react';
 
 function Home(){
+    console.log(data)
+    const [products, setProducts]= useState([])
+    useEffect(()=>{
+        setProducts(data.slice(0, 8))
+    },[])
     return(
         <>
             <div id='home'>
@@ -22,10 +29,7 @@ function Home(){
                         </div>
                     </div>
                     <div className="procards">
-                        <Card></Card>
-                        <Card></Card>
-                        <Card></Card>
-                        <Card></Card>
+                        {products.map(card =>(<Card key={card.id} name={card.name} price={card.price} img={card.img}/>) )}
                     </div>
                 </div>
             </section>

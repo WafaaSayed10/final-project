@@ -5,14 +5,14 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons'
 import { IoBagAddOutline } from "react-icons/io5";
 
-function Card(){
+function Card({ name, price, img }){
     return(
         <>
             <div className="procard">
                 <div className="row">
                     <div className="str-img">
                         <div className="col-12 image">
-                            <img className="w-100" src="https://www.engage.veented.com/shop-classic/wp-content/uploads/sites/39/2013/06/shorts1-600x600.jpg" alt=""/>
+                            <img className="w-100" src={img} alt=""/>
                         </div>
                         <div className="stars-icons">
                             <div className="stars" id="star"><FontAwesomeIcon className="star" icon={faStar} /><FontAwesomeIcon className="star" icon={faStar} /><FontAwesomeIcon className="star" icon={faStar} /><FontAwesomeIcon className="star" icon={faStar} /><FontAwesomeIcon className="star" icon={faStar} /></div>
@@ -22,8 +22,8 @@ function Card(){
                     <div className="row m-0 p-3">
                         <div className="title-price col-12 d-flex justify-content-between align-items-center">
                             <div className="">
-                                <div className="title mb-2">Beautiful pants</div>
-                                <p className="price m-0">$400</p>
+                                <div className="title mb-2">{name}</div>
+                                <p className="price m-0">${price}</p>
                             </div>
                             <div className='d-flex flex-column align-items-end'>
                                 <FiHeart className='like mb-2'/>
