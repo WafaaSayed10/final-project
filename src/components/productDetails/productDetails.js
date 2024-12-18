@@ -1,5 +1,5 @@
 import React from "react";
-import './product-details.css'
+import './productDetails.css'
 import {NavLink} from 'react-router-dom'
 //import {useState, useEffect} from 'react'
 import data from '../../data.json'
