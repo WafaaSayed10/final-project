@@ -5,7 +5,6 @@ import data from "../../data.json";
 import { useState, useEffect } from "react";
 
 function Home() {
-  console.log(data);
   const [products, setProducts] = useState([]);
   useEffect(() => {
     setProducts(data.slice(0, 8));
@@ -42,6 +41,7 @@ function Home() {
             {products.map((card) => (
               <Card
                 key={card.id}
+                id={card.id}
                 name={card.name}
                 price={card.price}
                 img={card.img}

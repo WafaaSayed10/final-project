@@ -15,7 +15,6 @@ import { useEffect } from "react";
 function NavScrollExample() {
   //function changemode(){document.body.classList.toggle("dark-themes")}
   const mode = useSelector((state) => state.Theme.mode);
-  console.log(mode);
   useEffect(() => {
     document.body.className = mode;
   }, [mode]);
