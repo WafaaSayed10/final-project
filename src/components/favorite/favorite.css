@@ -17,7 +17,71 @@
     border-radius: 5px;
     padding: 8px 15px;
     transition: all 0.3s;
+    margin-top: 1rem;
 }
 #favorite button:hover{
     background-color: rgb(46, 46, 46);
+}
+.allFavCards{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap:2rem;
+}
+.favCard{
+    border: 1px solid var(--bgcolor);
+    overflow: hidden;
+    background-color: var(--bg-card);
+}
+.favCard img{
+    cursor: pointer;
+}
+.favCard .title{
+    color: var(--default-color);
+    cursor: pointer;
+    text-decoration: none;
+}
+.favCard .title:hover{
+    color: var(--color-secondary);
+}
+.favCard .price{
+    color: var(--color-secondary2);
+}
+.favImage{
+    position: relative;
+}
+.favImage .x{
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    color: red;
+    cursor: pointer;
+}
+.bag{
+    cursor: pointer;
+}
+.empty{
+    color: var(--default-color);
+}
+@media (max-width: 575px) {
+    .allFavCards{
+        grid-template-columns: repeat(1, 1fr );
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .allFavCards{
+        grid-template-columns: repeat(2, 1fr );
+        gap: 1.5rem;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .allFavCards{
+        grid-template-columns: repeat(3, 1fr );
+        gap: 1.5rem;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+    .allFavCards{
+        grid-template-columns: repeat(4, 1fr );
+        gap: 1.5rem;
+    }
 }

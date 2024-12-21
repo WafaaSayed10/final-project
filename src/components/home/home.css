@@ -77,6 +77,142 @@
     grid-template-columns: repeat(4, 1fr );
     gap: 2rem;
 }
+.switchCategory{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 3rem;
+}
+.bestSeller{
+    margin-right: 2.2rem;
+    cursor: pointer;
+    color: var(--default-color);
+    transition: all 0.3s;
+}
+.discount{
+    cursor: pointer;
+    color: var(--default-color);
+    transition: all 0.3s;
+}
+.bestSeller:hover, .discount:hover{
+    color: var(--color-secondary);
+}
+#new{
+    background-color: var(--bg2);
+    border-bottom: 1px solid var(--bgcolor);
+}
+#new h2{
+    color: var(--default-color);
+}
+#new p{
+    color: var(--color-secondary2);
+    line-height: 1.8rem;
+}
+#new .like{
+    color: var(--color-secondary);
+    font-size: 1.3rem;
+    margin-right: 0.5rem;
+}
+#features{
+    background-color: var(--bg1);
+    border-bottom: 1px solid var(--bgcolor);
+    text-align: center;
+}
+#features h2{
+    color: var(--default-color);
+}
+#features p{
+    color: var(--color-secondary2);
+    line-height: 1.8rem;
+}
+#features .icon{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: grid;
+    background-color: var(--color-secondary);
+    color: white;
+    padding: 15px;
+}
+#features .featureIcon{
+    font-size: 35px;
+    margin: auto;
+}
+#features h5{
+    color: var(--default-color);
+}
+#features p{
+    color: var(--color-secondary2);
+    line-height: 1.8rem;
+}
+#convinced{
+    background-image: url(https://plus.unsplash.com/premium_photo-1664202526336-9edbfc8e2886?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: top 10vh center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+#convinced::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #00000080;
+}
+#convinced h2{
+    color: white;
+    z-index: 2;
+    position: relative;
+}
+#convinced p{
+    color: rgb(231, 231, 231);
+    z-index: 2;
+    position: relative;
+}
+#convinced .visitShop{
+    padding: 10px 20px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    z-index: 2;
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s;
+}
+#convinced .visitShop:hover{
+    background-color: white;
+    color: black;
+}
+#contact{
+    background-color: var(--bg1);
+    border-bottom: 1px solid var(--bgcolor);
+    position: relative;
+    padding-top: 4.1rem;
+    padding-bottom: 4.1rem;
+}
+#contact .icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: grid;
+    background-color: var(--color-secondary);
+    color: white;
+    padding: 10px;
+}
+#contact .icon .oneicon{
+    margin: auto;
+}
+.elementor-widget-google_maps .elementor-widget-container{overflow:hidden}.elementor-widget-google_maps iframe{height:420px; width: 100%;}
 
 @media (max-width: 575px) {
     #new-arrivals .procards{

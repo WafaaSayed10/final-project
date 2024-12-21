@@ -4,6 +4,8 @@
     "name": "product 1",
     "description": "Nunc id ante quis tellus faucibus dictum in eget metus. Duis suscipit elit sem, sed mattis tellus accumsan eget. Quisque consequat venenatis rutrum. Quisque posuere enim augue, in",
     "price": 400,
+    "num": 3,
+    "category":"discount",
     "favorite": false,
     "cart": false
 },
@@ -13,6 +15,8 @@
     "name": "product 2",
     "description": "Nunc id ante quis tellus faucibus dictum in eget metus. Duis suscipit elit sem, sed mattis tellus accumsan eget. Quisque consequat venenatis rutrum. Quisque posuere enim augue, in",
     "price": 400,
+    "num": 5,
+    "category":"discount",
     "favorite": false,
     "cart": false
 },
@@ -22,6 +26,8 @@
     "name": "product 3",
     "description": "Nunc id ante quis tellus faucibus dictum in eget metus. Duis suscipit elit sem, sed mattis tellus accumsan eget. Quisque consequat venenatis rutrum. Quisque posuere enim augue, in",
     "price": 400,
+    "num": 1,
+    "category":"bestSeller",
     "favorite": false,
     "cart": false
 },
@@ -31,6 +37,8 @@
     "name": "product 4",
     "description": "Nunc id ante quis tellus faucibus dictum in eget metus. Duis suscipit elit sem, sed mattis tellus accumsan eget. Quisque consequat venenatis rutrum. Quisque posuere enim augue, in",
     "price": 400,
+    "num": 2,
+    "category":"bestSeller",
     "favorite": false,
     "cart": false
 },
@@ -40,6 +48,8 @@
     "name": "product 5",
     "description": "Nunc id ante quis tellus faucibus dictum in eget metus. Duis suscipit elit sem, sed mattis tellus accumsan eget. Quisque consequat venenatis rutrum. Quisque posuere enim augue, in",
     "price": 400,
+    "num": 7,
+    "category":"bestSeller",
     "favorite": false,
     "cart": false
 },
@@ -49,6 +59,8 @@
     "name": "product 6",
     "description": "Nunc id ante quis tellus faucibus dictum in eget metus. Duis suscipit elit sem, sed mattis tellus accumsan eget. Quisque consequat venenatis rutrum. Quisque posuere enim augue, in",
     "price": 400,
+    "num": 10,
+    "category":"discount",
     "favorite": false,
     "cart": false
 },
@@ -58,6 +70,8 @@
     "name": "product 7",
     "description": "Nunc id ante quis tellus faucibus dictum in eget metus. Duis suscipit elit sem, sed mattis tellus accumsan eget. Quisque consequat venenatis rutrum. Quisque posuere enim augue, in",
     "price": 400,
+    "num": 7,
+    "category":"discount",
     "favorite": false,
     "cart": false
 },
@@ -67,6 +81,8 @@
     "name": "product 8",
     "description": "Nunc id ante quis tellus faucibus dictum in eget metus. Duis suscipit elit sem, sed mattis tellus accumsan eget. Quisque consequat venenatis rutrum. Quisque posuere enim augue, in",
     "price": 400,
+    "num": 6,
+    "category":"discount",
     "favorite": false,
     "cart": false
 },
@@ -76,6 +92,8 @@
     "name": "product 9",
     "description": "Nunc id ante quis tellus faucibus dictum in eget metus. Duis suscipit elit sem, sed mattis tellus accumsan eget. Quisque consequat venenatis rutrum. Quisque posuere enim augue, in",
     "price": 400,
+    "num": 1,
+    "category":"discount",
     "favorite": false,
     "cart": false
 },
@@ -85,6 +103,8 @@
     "name": "product 10",
     "description": "Nunc id ante quis tellus faucibus dictum in eget metus. Duis suscipit elit sem, sed mattis tellus accumsan eget. Quisque consequat venenatis rutrum. Quisque posuere enim augue, in",
     "price": 400,
+    "num": 3,
+    "category":"discount",
     "favorite": false,
     "cart": false
 },
@@ -94,6 +114,8 @@
     "name": "product 11",
     "description": "Nunc id ante quis tellus faucibus dictum in eget metus. Duis suscipit elit sem, sed mattis tellus accumsan eget. Quisque consequat venenatis rutrum. Quisque posuere enim augue, in",
     "price": 400,
+    "num": 3,
+    "category":"discount",
     "favorite": false,
     "cart": false
 },
@@ -103,6 +125,8 @@
     "name": "product 12",
     "description": "Nunc id ante quis tellus faucibus dictum in eget metus. Duis suscipit elit sem, sed mattis tellus accumsan eget. Quisque consequat venenatis rutrum. Quisque posuere enim augue, in",
     "price": 400,
+    "num": 3,
+    "category":"discount",
     "favorite": false,
     "cart": false
 }

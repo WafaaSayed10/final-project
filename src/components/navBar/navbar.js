@@ -11,11 +11,12 @@ import { NavLink } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { changemode } from "../../store/slices/modeSlice";
 import { useEffect } from "react";
+import { FaHeart } from "react-icons/fa";
 
 function NavScrollExample() {
   //function changemode(){document.body.classList.toggle("dark-themes")}
   const mode = useSelector((state) => state.Theme.mode);
-  console.log(mode);
+  //console.log(mode);
   useEffect(() => {
     document.body.className = mode;
   }, [mode]);
@@ -24,6 +25,7 @@ function NavScrollExample() {
   const change = () => {
     dispatch(changemode());
   };
+  const favorites = useSelector((state)=>state.Favorite.favorites)
   return (
     <Navbar expand="lg" className="navbar">
       <Container>
@@ -50,7 +52,7 @@ function NavScrollExample() {
               Contact
             </NavLink>
             <NavLink className="nav-link favorite " to="/favorite">
-              <FaRegHeart />
+              {favorites.length>0? < FaHeart/> : <FaRegHeart />}
             </NavLink>
             <NavLink className="nav-link cart " to="/cart">
               <IoBagOutline />

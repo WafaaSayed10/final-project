@@ -10,3 +10,47 @@
     margin-bottom: 2rem;
     color: var(--default-color);
 }
+.title{
+    color: var(--default-color);
+}
+.starss{
+    display: inline-block;
+    margin-block: 1rem;
+    color: var(--color-secondary);
+}
+.moreInfo{
+    color: var(--default-color);
+}
+.price{
+    color: var(--default-color);
+}
+.desc{
+    color: var(--default-color);
+}
+.hline{
+    color: var(--default-color);
+    margin-block: 2rem;
+}
+.boxOfNum{
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--color-secondary2);
+}
+.boxOfNum input{
+    width: 2rem;
+    border: none;
+    outline: none;
+    color: var(--color-secondary2);
+    background-color: transparent;
+}
+.addToCart{
+    background-color: var(--color-secondary);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 8px 15px;
+    transition: all 0.3s;
+    margin-left: 1rem;
+}
+.addToCart:hover{
+    background-color: rgb(46, 46, 46);
+}

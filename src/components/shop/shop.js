@@ -29,9 +29,7 @@ function Shop() {
             {products.map((card) => (
               <Card
                 key={card.id}
-                name={card.name}
-                price={card.price}
-                img={card.img}
+                card={card}
               />
             ))}
           </div>

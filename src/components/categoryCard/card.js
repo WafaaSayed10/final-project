@@ -9,7 +9,7 @@ import { useSelector,useDispatch } from 'react-redux';
 import { addAndRemoveFavorite } from '../../store/slices/favoriteSlics'
 import { FaHeart } from "react-icons/fa";
 
-function Card({ card }){
+function CategoryCard({ card }){
     const dispatch = useDispatch();
     //const fav=useSelector((state)=>state.Favorite.isFav)
     const favoriteCard = useSelector((state)=>state.Favorite.favorites)
@@ -55,4 +55,4 @@ function Card({ card }){
     )
 }
 
-export default Card
+export default CategoryCard
