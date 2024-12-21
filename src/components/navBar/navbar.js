@@ -16,7 +16,6 @@ import { FaHeart } from "react-icons/fa";
 function NavScrollExample() {
   //function changemode(){document.body.classList.toggle("dark-themes")}
   const mode = useSelector((state) => state.Theme.mode);
-  //console.log(mode);
   useEffect(() => {
     document.body.className = mode;
   }, [mode]);
@@ -54,7 +53,10 @@ function NavScrollExample() {
             <NavLink className="nav-link favorite " to="/favorite">
               {favorites.length>0? < FaHeart/> : <FaRegHeart />}
             </NavLink>
-            <NavLink className="nav-link cart " to="/cart">
+            <NavLink className="nav-link cart fs-4" to="/cart">
+              <span className="notification bg-danger text-light rounded-circle fw-light d-flex justify-content-center align-items-center">
+                0
+              </span>
               <IoBagOutline />
             </NavLink>
             <BiSearch className="nav-link search " />

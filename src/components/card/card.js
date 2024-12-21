@@ -1,17 +1,18 @@
 import React from "react";
-import './card.css'
+//import {useState} from "react";
+import "./card.css";
 import { FiHeart } from "react-icons/fi";
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import { faStar } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { IoBagAddOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
 import { useSelector,useDispatch } from 'react-redux';
 import { addAndRemoveFavorite } from '../../store/slices/favoriteSlics'
 import { FaHeart } from "react-icons/fa";
+import { addToCart } from "../../store/slices/cartSlice";
 
 function Card({ card }){
     const dispatch = useDispatch();
-    //const fav=useSelector((state)=>state.Favorite.isFav)
     const favoriteCard = useSelector((state)=>state.Favorite.favorites)
     const addToFav=(product)=>{
         console.log('Adding to favorites:', product);
@@ -20,6 +21,15 @@ function Card({ card }){
     const favProduct = favoriteCard.some(
         (product) => product.id === card.id
     );
+    //const carts = useSelector((store) => store.cart.items);
+    const handleAddToCart = () => {
+        dispatch(
+            addToCart({
+                productId: card.id,
+                quantity: 1,
+            })
+        );
+    };
     return(
         <>
             <div className="procard">
@@ -44,7 +54,7 @@ function Card({ card }){
                             <div className='d-flex flex-column align-items-end'>
                                 <div>{favProduct? <FaHeart className='like redlike mb-2' onClick={()=>addToFav(card)}/> : <FiHeart className='like mb-2' onClick={()=>addToFav(card)}/>}</div>
                                 <div className='add-cart d-flex justify-content-between align-items-center'>
-                                    <IoBagAddOutline className='add-to-cart'/><div className='add-to-cart-text ms-1' >Add to cart</div>
+                                    <IoBagAddOutline className='add-to-cart'/><div className='add-to-cart-text ms-1' onClick={handleAddToCart}>Add to cart</div>
                                 </div>
                             </div>
                         </div>
@@ -52,7 +62,7 @@ function Card({ card }){
                 </div>
             </div>
         </>
-    )
+    );
 }
 
-export default Card
+export default Card;
