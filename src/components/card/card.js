@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./card.css";
 import { FiHeart } from "react-icons/fi";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -18,6 +18,7 @@ function Card({ name, price, img, id }) {
         quantity: 1,
       })
     );
+    
   };
   return (
     <>

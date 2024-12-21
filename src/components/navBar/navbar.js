@@ -51,7 +51,10 @@ function NavScrollExample() {
             <NavLink className="nav-link favorite " to="/favorite">
               <FaRegHeart />
             </NavLink>
-            <NavLink className="nav-link cart " to="/cart">
+            <NavLink className="nav-link cart fs-4" to="/cart">
+              <span className="notification bg-danger text-light rounded-circle fw-light d-flex justify-content-center align-items-center">
+                0
+              </span>
               <IoBagOutline />
             </NavLink>
             <BiSearch className="nav-link search " />
