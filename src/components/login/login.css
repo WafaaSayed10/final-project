@@ -8,7 +8,6 @@
     --footer1: #f1f1f199;
     --footer: #f1f1f1;
   }
-  
   .dark-theme {
     --bgcolor: rgb(38, 38, 38);
     --bg-card: rgb(38, 38, 38);
@@ -30,7 +29,9 @@
   }
   
   .form-container {
-    background-color: var(--bg-card);
+    background-image: url(../../../public/logo.webp);
+    background-position: center;
+    background-size: cover;
     padding: 3rem;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -40,7 +41,7 @@
     color: var(--color-secondary);
     font-size: 2.5rem;
     margin-bottom: 2rem;
-    text-align: center;
+    text-align: left;
   }
   
   input {
@@ -89,4 +90,3 @@
     margin-bottom: 10px;
     text-align: center;
   }
-  

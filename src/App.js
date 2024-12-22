@@ -10,7 +10,6 @@ import Favorite from "./components/favorite/favorite";
 import Shop from "./components/shop/shop";
 import About from "./components/about/about";
 import ProductDetails from "./components/productDetails/productDetails";
-import NotFound from "./components/notFound/notFound";
 import Register from "./components/register/register";
 import Login from "./components/login/login";
 import { useState, useEffect } from "react";
@@ -115,8 +114,6 @@ function App() {
                 />
               }
             />
-
-            <Route path="*" element={<NotFound />} />
           </Routes>
 
           {/* Footer visible only when Navbar is shown */}
