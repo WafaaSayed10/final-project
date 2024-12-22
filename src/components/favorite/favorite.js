@@ -5,8 +5,8 @@ import { useNavigate } from "react-router-dom";
 import { useSelector, useDispatch } from 'react-redux';
 import { IoCloseSharp } from "react-icons/io5";
 import { IoBagAddOutline } from "react-icons/io5";
-import {removeFavorite} from '../../store/slices/favoriteSlics'
-import {resetFavorite} from '../../store/slices/favoriteSlics'
+import {removeFavorite} from '../../store/slices/favoriteSlic'
+import {resetFavorite} from '../../store/slices/favoriteSlic'
 import { Link } from "react-router-dom";
 //import { useEffect } from "react";
 

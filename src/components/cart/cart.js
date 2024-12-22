@@ -7,6 +7,7 @@ import {
   incrementQuantity,
   decrementQuantity,
   removeFromCart,
+  clearCart
 } from "../../store/slices/cartSlice";
 
 function Cart() {
@@ -76,12 +77,11 @@ function Cart() {
               </div>
             ))}
           </div>
-        ) : (
-          <p className="text-center">Your cart is empty!</p>
-        )}
-        <button onClick={returnToShop} className="mt-5">
-          Return to shop
-        </button>
+        ) : <></>
+        }
+        {cartProducts.length>0? <button onClick={()=>dispatch(clearCart())}>Reset Cart</button>:
+          <><p className="empty">Your cart is empty!</p><button onClick={returnToShop}>Return to shop</button></>
+        }
       </div>
     </section>
   );

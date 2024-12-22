@@ -19,21 +19,24 @@ export const Favorite = createSlice({
                     (product) => product.id !== action.payload.id
                 );
                 //action.payload.favorite=false
+                //localStorage.setItem("savedFavorites",JSON.stringify(state.favorites))
             }
             else{
                 state.favorites.push(action.payload);
                 //action.payload.favorite=true
                 //action.payload = {...action.payload, favorite:false}
-                
+                //localStorage.setItem("savedFavorites",JSON.stringify(state.favorites))
             }
         },
         removeFavorite:(state, action)=>{
             state.favorites= state.favorites.filter((product)=>
                 product.id!==action.payload.id
             )
+            //localStorage.setItem("savedFavorites",JSON.stringify(state.favorites))
         },
         resetFavorite: (state) => {
             state.favorites = [];
+            //localStorage.setItem("savedFavorites",JSON.stringify(state.favorites))
         }
     }
 })
