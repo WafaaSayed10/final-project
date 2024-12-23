@@ -1,0 +1,92 @@
+.light-theme {
+    --bgcolor: rgb(231, 231, 231);
+    --bg-card: white;
+    --bg2: white;
+    --bg-nav: white;
+    --color-secondary: #ae9768;
+    --default-color: #000;
+    --footer1: #f1f1f199;
+    --footer: #f1f1f1;
+  }
+  .dark-theme {
+    --bgcolor: rgb(38, 38, 38);
+    --bg-card: rgb(38, 38, 38);
+    --bg2: #1b1b1b;
+    --bg-nav: rgb(21, 21, 21);
+    --color-secondary: teal;
+    --default-color: #fff;
+    --footer1: #181818;
+    --footer: rgb(14, 14, 14);
+  }
+  
+  #login {
+    background-color: var(--bg2);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--default-color);
+  }
+  
+  .form-container {
+    background-image: url(../../../public/logo.webp);
+    background-position: center;
+    background-size: cover;
+    padding: 3rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: var(--color-secondary);
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: left;
+  }
+  
+  input {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid var(--bgcolor);
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .btn {
+    background-color: var(--color-secondary);
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .btn:hover {
+    background-color: var(--color-secondary);
+    color: var(--bg-card);
+    border: none;
+  }
+  
+  .success-message {
+    color: green;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
