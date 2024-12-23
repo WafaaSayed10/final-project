@@ -73,8 +73,8 @@ function Home() {
           </div>
           <div className="showCategory">
             <div className="switchCategory">
-              <h5 className="bestSeller" onClick={()=>{setCategory('bestSeller')}}>Best Seller</h5>
-              <h5 className="discount" onClick={()=>{setCategory('discount')}}>Discount</h5>
+              <h5 className={category === 'bestSeller' ? 'active' : ''} id="bestSeller" onClick={()=>{setCategory('bestSeller')}} >Best Seller</h5>
+              <h5 className={category === 'discount' ? 'active' : ''} id="discount" onClick={()=>{setCategory('discount')}}>Discount</h5>
             </div>
             <div className="procards">
               {showCategory.map((item)=>(<CategoryCard key={item.id} card={item}/>))}

@@ -2,11 +2,71 @@
     background-color: var(--bg1);
     border-bottom: 1px solid var(--bgcolor);
     position: relative;
-    padding-block: 4.1rem;
+    padding-top: 4.1rem;
 }
 .bg-about{
     background-color: var(--footer);
     padding-block: 1.5rem;
     margin-bottom: 2rem;
     color: var(--default-color);
+}
+#about{
+    background-color: var(--bg1);
+    border-bottom: 1px solid var(--bgcolor);
+}
+#about .about-content h2{
+    color: var(--default-color);
+}
+#about .about-content p{
+    color: var(--color-secondary2);
+    line-height: 1.8rem;
+}
+#about .icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: grid;
+    background-color: var(--color-secondary);
+    color: white;
+    padding: 10px;
+}
+#about .about-content .aboutIcon{
+    font-size: 25px;
+    margin: auto;
+}
+.features{
+    background-color: var(--footer);
+}
+.features h4, h2{
+    color: var(--default-color);
+}
+.features p{
+    color: var(--color-secondary2);
+    line-height: 1.7rem;
+}
+.aboutCard{
+    margin-bottom: 2rem;
+}
+.last{
+    padding-block: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.last p{
+    color: var(--default-color);
+    margin: 1rem 0 1.5rem 0;
+}
+.last button{
+    background-color: var(--color-secondary);
+    color: white;
+    padding: 15px 30px;
+    border: 1px solid var(--color-secondary);
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+.last button:hover{
+    background-color: rgb(46, 46, 46);
+    border: 1px solid rgb(46, 46, 46);
 }

@@ -10,8 +10,9 @@ import { FaRegHeart } from "react-icons/fa6";
 import { NavLink } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { changemode } from "../../store/slices/modeSlice";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { FaHeart } from "react-icons/fa";
+import { IoMdClose } from "react-icons/io";
 
 function NavScrollExample() {
   //function changemode(){document.body.classList.toggle("dark-themes")}
@@ -26,6 +27,20 @@ function NavScrollExample() {
   };
   const favorites = useSelector((state)=>state.Favorite.favorites)
   const cart = useSelector((state)=>state.cart.items)
+  
+  const [display, setDisplay] = useState('closeSearch');
+  
+  function openSearchDiv(){
+    setDisplay("openSearch")
+  }
+  function closeSearch(){
+    setDisplay("closeSearch")
+  }
+
+  const [searchValue, setSearchValue] = useState('');
+  function value(e){
+    setSearchValue(e.target.value)
+  }
   
   return (
     <Navbar expand="lg" className="navbar">
@@ -64,7 +79,7 @@ function NavScrollExample() {
               
               <IoBagOutline />
             </NavLink>
-            <BiSearch className="nav-link search " />
+            <BiSearch className="nav-link search" onClick={openSearchDiv} />
             {mode === "light-theme" ? (
               <FontAwesomeIcon
                 className="moon ms-xl-5 ms-lg-5"
@@ -82,6 +97,13 @@ function NavScrollExample() {
           </Nav>
         </Navbar.Collapse>
       </Container>
+      <div className="searchDiv" id={display}>
+        <IoMdClose className="closeIcon" onClick={closeSearch}/>
+        <div className="searchInp">
+          <input type="text" placeholder="Search..." value={searchValue} onChange={(e)=>value(e)}/>
+          <BiSearch className="searchIcon " />
+        </div>
+      </div>
     </Navbar>
   );
 }

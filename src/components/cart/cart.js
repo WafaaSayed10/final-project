@@ -79,7 +79,7 @@ function Cart() {
           </div>
         ) : <></>
         }
-        {cartProducts.length>0? <button onClick={()=>dispatch(clearCart())}>Reset Cart</button>:
+        {cartProducts.length>0? <button onClick={()=>dispatch(clearCart())} className="mt-5">Reset Cart</button>:
           <><p className="empty">Your cart is empty!</p><button onClick={returnToShop}>Return to shop</button></>
         }
       </div>

@@ -1,133 +1,170 @@
 [{
     "id":1,
-    "img":"https://images.unsplash.com/photo-1547887537-6158d64c35b3?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "name": "product 1",
+    "img":"https://www.engage.veented.com/shop-classic/wp-content/uploads/sites/39/2013/06/shirt1-600x600.jpg",
+    "name": "Lily Shirt",
     "description": "Nunc id ante quis tellus faucibus dictum in eget metus. Duis suscipit elit sem, sed mattis tellus accumsan eget. Quisque consequat venenatis rutrum. Quisque posuere enim augue, in",
-    "price": 400,
+    "price": 20,
     "num": 3,
     "category":"discount",
     "favorite": false,
-    "cart": false
+    "cart": false,
+    "type": "shirt"
 },
 {
     "id":2,
-    "img":"https://images.unsplash.com/photo-1547887537-6158d64c35b3?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "name": "product 2",
+    "img":"https://www.engage.veented.com/shop-classic/wp-content/uploads/sites/39/2013/06/shoes2-600x600.jpg",
+    "name": "Light Shoes",
     "description": "Nunc id ante quis tellus faucibus dictum in eget metus. Duis suscipit elit sem, sed mattis tellus accumsan eget. Quisque consequat venenatis rutrum. Quisque posuere enim augue, in",
-    "price": 400,
+    "price": 18,
     "num": 5,
     "category":"discount",
     "favorite": false,
-    "cart": false
+    "cart": false,
+    "type": "shoes"
 },
 {
     "id":3,
-    "img":"https://images.unsplash.com/photo-1547887537-6158d64c35b3?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "name": "product 3",
+    "img":"https://www.engage.veented.com/shop-classic/wp-content/uploads/sites/39/2013/06/bag3-600x600.jpg",
+    "name": "Brown Backpack",
     "description": "Nunc id ante quis tellus faucibus dictum in eget metus. Duis suscipit elit sem, sed mattis tellus accumsan eget. Quisque consequat venenatis rutrum. Quisque posuere enim augue, in",
-    "price": 400,
+    "price": 15,
     "num": 1,
     "category":"bestSeller",
     "favorite": false,
-    "cart": false
+    "cart": false,
+    "type": "bag"
 },
 {
     "id":4,
-    "img":"https://images.unsplash.com/photo-1519669011783-4eaa95fa1b7d?q=80&w=1958&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "name": "product 4",
+    "img":"https://www.engage.veented.com/shop-classic/wp-content/uploads/sites/39/2013/06/hat2-600x600.jpg",
+    "name": "Beautiful Hat",
     "description": "Nunc id ante quis tellus faucibus dictum in eget metus. Duis suscipit elit sem, sed mattis tellus accumsan eget. Quisque consequat venenatis rutrum. Quisque posuere enim augue, in",
-    "price": 400,
+    "price": 15,
     "num": 2,
     "category":"bestSeller",
     "favorite": false,
-    "cart": false
+    "cart": false,
+    "type": "hat"
 },
 {
     "id":5,
-    "img":"https://images.unsplash.com/photo-1519669011783-4eaa95fa1b7d?q=80&w=1958&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "name": "product 5",
+    "img":"https://www.engage.veented.com/shop-classic/wp-content/uploads/sites/39/2013/06/shoes-man-1-600x600.jpg",
+    "name": "Brown Shoes",
     "description": "Nunc id ante quis tellus faucibus dictum in eget metus. Duis suscipit elit sem, sed mattis tellus accumsan eget. Quisque consequat venenatis rutrum. Quisque posuere enim augue, in",
-    "price": 400,
+    "price": 15,
     "num": 7,
     "category":"bestSeller",
     "favorite": false,
-    "cart": false
+    "cart": false,
+    "type": "shoes"
 },
 {
     "id":6,
-    "img":"https://images.unsplash.com/photo-1519669011783-4eaa95fa1b7d?q=80&w=1958&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "name": "product 6",
+    "img":"https://www.engage.veented.com/shop-classic/wp-content/uploads/sites/39/2013/06/shoes-600x600.jpg",
+    "name": "Basic Sandals",
     "description": "Nunc id ante quis tellus faucibus dictum in eget metus. Duis suscipit elit sem, sed mattis tellus accumsan eget. Quisque consequat venenatis rutrum. Quisque posuere enim augue, in",
-    "price": 400,
+    "price": 20,
     "num": 10,
     "category":"discount",
     "favorite": false,
-    "cart": false
+    "cart": false,
+    "type": "shoes"
 },
 {
     "id":7,
-    "img":"https://images.unsplash.com/photo-1519669011783-4eaa95fa1b7d?q=80&w=1958&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "name": "product 7",
+    "img":"https://www.engage.veented.com/shop-classic/wp-content/uploads/sites/39/2013/06/bag4-600x600.jpg",
+    "name": "Color Bag",
     "description": "Nunc id ante quis tellus faucibus dictum in eget metus. Duis suscipit elit sem, sed mattis tellus accumsan eget. Quisque consequat venenatis rutrum. Quisque posuere enim augue, in",
-    "price": 400,
+    "price": 35,
     "num": 7,
-    "category":"discount",
+    "category":"bestSeller",
     "favorite": false,
-    "cart": false
+    "cart": false,
+    "type": "bag"
 },
 {
     "id":8,
-    "img":"https://images.unsplash.com/photo-1519669011783-4eaa95fa1b7d?q=80&w=1958&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "name": "product 8",
+    "img":"https://www.engage.veented.com/shop-classic/wp-content/uploads/sites/39/2013/06/bag-1-600x600.jpg",
+    "name": "Fancy Bag",
     "description": "Nunc id ante quis tellus faucibus dictum in eget metus. Duis suscipit elit sem, sed mattis tellus accumsan eget. Quisque consequat venenatis rutrum. Quisque posuere enim augue, in",
-    "price": 400,
+    "price": 35,
     "num": 6,
     "category":"discount",
     "favorite": false,
-    "cart": false
+    "cart": false,
+    "type": "bag"
 },
 {
     "id":9,
-    "img":"https://images.unsplash.com/photo-1519669011783-4eaa95fa1b7d?q=80&w=1958&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "name": "product 9",
+    "img":"https://www.engage.veented.com/shop-classic/wp-content/uploads/sites/39/2013/06/shorts1-600x600.jpg",
+    "name": "Beige Shorts",
     "description": "Nunc id ante quis tellus faucibus dictum in eget metus. Duis suscipit elit sem, sed mattis tellus accumsan eget. Quisque consequat venenatis rutrum. Quisque posuere enim augue, in",
-    "price": 400,
+    "price": 35,
     "num": 1,
     "category":"discount",
     "favorite": false,
-    "cart": false
+    "cart": false,
+    "type": "shorts"
 },
 {
     "id":10,
-    "img":"https://images.unsplash.com/photo-1519669011783-4eaa95fa1b7d?q=80&w=1958&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "name": "product 10",
+    "img":"https://www.engage.veented.com/shop-classic/wp-content/uploads/sites/39/2013/06/glasses-2-600x600.jpg",
+    "name": "Cool Glasses",
     "description": "Nunc id ante quis tellus faucibus dictum in eget metus. Duis suscipit elit sem, sed mattis tellus accumsan eget. Quisque consequat venenatis rutrum. Quisque posuere enim augue, in",
-    "price": 400,
+    "price": 18,
     "num": 3,
     "category":"discount",
     "favorite": false,
-    "cart": false
+    "cart": false,
+    "type": "glasses"
 },
 {
     "id":11,
-    "img":"https://images.unsplash.com/photo-1519669011783-4eaa95fa1b7d?q=80&w=1958&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "name": "product 11",
+    "img":"https://www.engage.veented.com/shop-classic/wp-content/uploads/sites/39/2013/06/hat1-600x600.jpg",
+    "name": "Cool Hat",
     "description": "Nunc id ante quis tellus faucibus dictum in eget metus. Duis suscipit elit sem, sed mattis tellus accumsan eget. Quisque consequat venenatis rutrum. Quisque posuere enim augue, in",
-    "price": 400,
+    "price": 12,
     "num": 3,
     "category":"discount",
     "favorite": false,
-    "cart": false
+    "cart": false,
+    "type": "hat"
 },
 {
     "id":12,
-    "img":"https://images.unsplash.com/photo-1519669011783-4eaa95fa1b7d?q=80&w=1958&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "name": "product 12",
+    "img":"https://www.engage.veented.com/shop-classic/wp-content/uploads/sites/39/2013/06/shoes3-600x600.jpg",
+    "name": "Fancy Shoes",
     "description": "Nunc id ante quis tellus faucibus dictum in eget metus. Duis suscipit elit sem, sed mattis tellus accumsan eget. Quisque consequat venenatis rutrum. Quisque posuere enim augue, in",
-    "price": 400,
+    "price": 35,
     "num": 3,
     "category":"discount",
     "favorite": false,
-    "cart": false
+    "cart": false,
+    "type": "shoes"
+},
+{
+    "id":13,
+    "img":"https://www.engage.veented.com/shop-classic/wp-content/uploads/sites/39/2013/06/shorts2-600x600.jpg",
+    "name": "Jeans Shorts",
+    "description": "Nunc id ante quis tellus faucibus dictum in eget metus. Duis suscipit elit sem, sed mattis tellus accumsan eget. Quisque consequat venenatis rutrum. Quisque posuere enim augue, in",
+    "price": 20,
+    "num": 3,
+    "category":"discount",
+    "favorite": false,
+    "cart": false,
+    "type": "shorts"
+}
+,
+{
+    "id":14,
+    "img":"https://www.engage.veented.com/shop-classic/wp-content/uploads/sites/39/2013/06/bag2-1-600x600.jpg",
+    "name": "White Bag",
+    "description": "Nunc id ante quis tellus faucibus dictum in eget metus. Duis suscipit elit sem, sed mattis tellus accumsan eget. Quisque consequat venenatis rutrum. Quisque posuere enim augue, in",
+    "price": 35,
+    "num": 3,
+    "category":"discount",
+    "favorite": false,
+    "cart": false,
+    "type": "bag"
 }
 ]
