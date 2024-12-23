@@ -16,19 +16,12 @@ function Login({ setShowNavbar, setIsAuthenticated }) {
   }, [setShowNavbar]);
 
   const formik = useFormik({
-    initialValues: { email: "", password: "", confirmPassword: "" },
+    initialValues: { email: "", password: "" },
     validationSchema: Yup.object({
       email: Yup.string().email("Invalid email").required("Required"),
       password: Yup.string()
         .min(6, "Minimum 6 characters")
         .required("Required"),
-      confirmPassword: Yup.string()
-        .oneOf([Yup.ref("password"), null], "Passwords must match")
-        .required("Confirm Password is required")
-        .when("isRegistering", {
-          is: true,
-          then: Yup.string().required("Confirm Password is required"),
-        }),
     }),
     onSubmit: (values) => {
       const users = JSON.parse(localStorage.getItem("users") || "[]");
@@ -107,10 +100,6 @@ function Login({ setShowNavbar, setIsAuthenticated }) {
               }
             />
           )}
-          {formik.touched.confirmPassword && formik.errors.confirmPassword && (
-            <p className="error">{formik.errors.confirmPassword}</p>
-          )}
-
           <button type="submit" className="btn">
             {isRegistering ? "Register" : "Login"}
           </button>
@@ -131,10 +120,7 @@ function Login({ setShowNavbar, setIsAuthenticated }) {
             ) : (
               <>
                 Don't have an account?{" "}
-                <Link
-                  to={"/register"}
-                  className="link-text"
-                >
+                <Link to={"/register"} className="link-text">
                   Register here
                 </Link>
               </>

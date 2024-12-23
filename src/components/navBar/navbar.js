@@ -24,9 +24,9 @@ function NavScrollExample() {
   const change = () => {
     dispatch(changemode());
   };
-  const favorites = useSelector((state)=>state.Favorite.favorites)
-  const cart = useSelector((state)=>state.cart.items)
-  
+  const favorites = useSelector((state) => state.Favorite.favorites);
+  const cart = useSelector((state) => state.cart.items);
+
   return (
     <Navbar expand="lg" className="navbar">
       <Container>
@@ -53,15 +53,17 @@ function NavScrollExample() {
               Contact
             </NavLink>
             <NavLink className="nav-link favorite " to="/favorite">
-              {favorites.length>0? < FaHeart/> : <FaRegHeart />}
+              {favorites.length > 0 ? <FaHeart /> : <FaRegHeart />}
             </NavLink>
             <NavLink className="nav-link cart fs-4" to="/cart">
-            {cart.length>0? 
-            <span className="notification text-light rounded-circle fw-light d-flex justify-content-center align-items-center">
-            {cart.length}
-          </span>
-          : <></>}
-              
+              {cart.length > 0 ? (
+                <span className="notification text-light rounded-circle fw-light d-flex justify-content-center align-items-center">
+                  {cart.length}
+                </span>
+              ) : (
+                <></>
+              )}
+
               <IoBagOutline />
             </NavLink>
             <BiSearch className="nav-link search " />
@@ -79,6 +81,9 @@ function NavScrollExample() {
                 icon={faSun}
               />
             )}
+            <NavLink className="nav-link ps-5" to="/login">
+              Logout
+            </NavLink>
           </Nav>
         </Navbar.Collapse>
       </Container>
